@@ -460,6 +460,12 @@ h3 {
     }
 }
 
+@media (max-width:700px){
+    #header, #insta, #work{
+        background-attachment: scroll;
+    }
+}
+
 
 .section__container {
     max-width: 1120px;
