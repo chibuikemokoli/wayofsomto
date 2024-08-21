@@ -976,7 +976,7 @@ h3 {
 }
 
 .py-5 {
-    padding: 5rem;
+    padding-top: 5rem;
 }
 
 .py-4 {
@@ -1042,10 +1042,10 @@ h3 {
 }
 
 @media (min-width: 992px) {
-    .about8 .container {
+    .about8 .section__container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
     }
 
     .about-banner {
@@ -1214,7 +1214,7 @@ h3 {
     background-image: url("../images/insta-pic.jpg");
     background-size: cover;
     border: 3px;
-    width: 80%;
+    width: 90%;
     top: auto;
     left: 0;
     box-shadow: 0 2px 16px hsla(222, 32%, 8%, 0.955);
